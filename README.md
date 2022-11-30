@@ -1,12 +1,18 @@
+Exp: 03
+
+Date: 23.09.2022
+
 # Interfacing-a-Digital-INPUT-push-button-to-LPC2148-ARM-7-Microcontroller-
 ```
 Name : Kaushika.A
 Roll no : 212221230048
 ```
  
-### Aim: To Interface a Digital input (pushbutton ) to LPC2148 ARM 7 and write a code to switch on and of an LED 
-Components required: Proteus ISIS professional suite, Kiel μ vision 5 Development environment 
-### Theory 
+## Aim: 
+To Interface a Digital input (pushbutton ) to LPC2148 ARM 7 and write a code to switch on and of an LED 
+##Components required: 
+Proteus ISIS professional suite, Kiel μ vision 5 Development environment 
+## Theory 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
 
 
@@ -37,7 +43,7 @@ The main features of LPC2148 include the following.
 
 
 
-### Procedure:
+## Procedure:
 For creation of project on    Kiel μ vision 5 Development environment (LPC21 XX/48/38)
 1.	Click on the menu Project — New µVision Project creates a new project. Select an empty folder and enter the project name, for example Project1. It is good practice to use a separate folder for each project.
 2.	Next, the dialog Select Device for Target opens.
@@ -115,10 +121,6 @@ Step 9: Select the hex file from the Kiel program folder and import the program 
 
 ## Kiel - Program  
 ```c
-'''
-NAME :- Kaushika.A
-REG NO:- 212221230048
-'''
 
 #include <LPC214x.h>   // define LPC2148 Header file
 #define led (1<<2)     // led macro for pin 2 of port0
